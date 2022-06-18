@@ -1,0 +1,59 @@
+.addTodo_wrap {
+  form {
+    margin: 3rem 0;
+    display: flex;
+  }
+  input {
+    padding: 1rem 0 1rem 0.5rem;
+    outline: none;
+    margin-right: 1rem;
+
+    border: 1px solid #ccc;
+  }
+  .submit_btn_link {
+    text-decoration: none;
+
+    .submit_btn {
+      cursor: pointer;
+      margin-right: 0.5rem;
+      padding: 1rem;
+      border: 1px solid #007ec2;
+      background-color: #007ec2;
+
+      p {
+        color: #fff;
+        font-size: 1.4rem;
+      }
+    }
+    .submit_btn:hover {
+      border: 1px solid #007ec2;
+      background-color: #fff;
+      p {
+        color: #007ec2;
+      }
+    }
+  }
+
+  .cancel_link {
+    text-decoration: none;
+    .cancel_btn {
+      cursor: pointer;
+      padding: 1rem;
+      border: 1px solid #ff0000;
+
+      background-color: #ff0000;
+
+      p {
+        color: #fff;
+        font-size: 1.4rem;
+      }
+    }
+    .cancel_btn:hover {
+      border: 1px solid #ff0000;
+      background-color: #fff;
+      p {
+        color: #ff0000;
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.todo_wrap {
+  width: 50%;
+
+  margin: 4rem 32rem;
+
+  .todo_heading {
+    background-color: #243741;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+    h4 {
+      font-size: 1.8rem;
+      color: var(--white-color);
+    }
+    button {
+      border: 1px solid #007ec2;
+      background-color: #007ec2;
+      padding: 1rem;
+
+      cursor: pointer;
+      .add_link {
+        text-decoration: none;
+      }
+      p {
+        color: var(--white-color);
+      }
+    }
+    button:hover {
+      background-color: #fff;
+      p {
+        color: #007ec2;
+      }
+    }
+  }
+
+  .todo_list {
+    margin-top: 3rem;
+    .todo_item {
+      border: 1px solid #dfdfdf;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      margin: 1rem 0;
+
+      h4 {
+        font-size: 1.6rem;
+        font-weight: 400;
+        cursor: pointer;
+      }
+      h4:hover {
+        color: #fd2d2d;
+      }
+
+      .edit_btn,
+      .delete_btn {
+        padding: 1rem;
+
+        margin: 0 0.5rem;
+        cursor: pointer;
+        p {
+          color: var(--white-color);
+        }
+      }
+      .edit_btn {
+        background-color: #ff9900;
+        border: 1px solid #ff9900;
+        .edit_link {
+          text-decoration: none;
+        }
+      }
+
+      .edit_btn:hover {
+        background-color: #fff;
+        p {
+          color: #ff9900;
+        }
+      }
+      .delete_btn {
+        background-color: #ff0000;
+        border: 1px solid #ff0000;
+      }
+      .delete_btn:hover {
+        background-color: #fff;
+        p {
+          color: #ff0000;
+        }
+      }
+
+      .complete_todo {
+        text-decoration-line: line-through;
+      }
+    }
+  }
+}
